@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'event_card.dart'; // Import the EventCard widget
+import 'event_card.dart'; 
 
 class EventList extends StatelessWidget {
   final List<Map<String, dynamic>> events;
