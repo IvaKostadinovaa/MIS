@@ -10,7 +10,7 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
-  final LatLng _initialPosition = LatLng(41.9981, 21.4254); // Координати за Скопје
+  final LatLng _initialPosition = LatLng(41.9981, 21.4254); 
   List<Marker> _markers = [];
 
   @override
